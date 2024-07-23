@@ -30,17 +30,17 @@ export default function Hero() {
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{
-          delay: 0.125
+          delay: 0.925
         }}
       >
         <li>
-          <a className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          <a className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-xl text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://github.com/jackjf28" target="_blank">
             <FaGithubSquare />
           </a>
         </li>
         <li>
-          <a className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          <a className="bg-white text-slate-700 p-4 flex items-center gap-2 rounded-xl text-[1.35rem] focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition-all cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
             href="https://linkedin.com/in/jackfarrell" target="_blank">
             <BsLinkedin />
           </a>

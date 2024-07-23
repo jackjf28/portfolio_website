@@ -8,18 +8,12 @@ type LinkProps = (typeof links)[number]
 export default function NavItem({ name, hash }:
   LinkProps) {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: -100 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{
-        delay: 0.125
-      }}
-    >
-      <a href={hash} className="lg:flex items-center gap-4">
-        <div className='bg-gray-200 my-4 h-[2px] w-12 rounded-full hidden sm:block dark:bg-opacity-20'>
+    <div>
+      <a href={hash} className="lg:flex items-center gap-4 group">
+        <div className='bg-gray-200 my-4 h-[2px] w-12 rounded-full hidden sm:block dark:bg-opacity-20 group-hover:bg-gray-200 transition group-focus:bg-gray-200'>
         </div>
-        <span className="capitalize pb-1">{name}</span>
+        <span className="pb-1 group-hover:text-gray-200 group-focus:text-gray-200 transition">{name}</span>
       </a>
-    </motion.div>
+    </div>
   )
 }
