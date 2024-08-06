@@ -22,7 +22,7 @@ export default function Hero() {
           <a href="/">Jack Farrell</a>
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Senior Software Engineer</h2>
-        <p className="mt-4 max-w-xs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem numquam mollitia?</p>
+        <p className="mt-4 max-w-xs">Five years of professional experience building in cloud-native environments.</p>
         <Nav />
       </motion.div>
 
